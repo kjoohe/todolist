@@ -1,0 +1,36 @@
+.TodoItem {
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px 1px #83a7a3;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  font-family: 'EarlyFontDiary';
+}
+.TodoItem + .TodoItem {
+  margin-top: 10px;
+}
+.content {
+  cursor: pointer;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.content svg {
+  font-size: 2rem;
+  color: #83a7a3;
+}
+.content.text {
+  margin-left: 0.5rem;
+  flex: 1;
+  font-family: 'EarlyFontDiary';
+}
+
+.content.checked .text {
+  color: #83a7a3;
+  text-decoration: line-through;
+  cursor: pointer;
+  opacity: 0.6;
+}

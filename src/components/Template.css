@@ -1,0 +1,16 @@
+.Template {
+  padding: 20px;
+  max-height: 100vh;
+  font-family: 'EarlyFontDiary';
+}
+.Title {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #83a7a3;
+  font-family: 'EarlyFontDiary';
+}
