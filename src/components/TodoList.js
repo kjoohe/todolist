@@ -38,10 +38,11 @@ import TodoItem from './TodoItem';
 import './TodoList.css';
 
 const WhiteBox1 = styledComponents.div`
+width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 0.32rem;
     margin: 0;
     width: 100%;
     background: white;

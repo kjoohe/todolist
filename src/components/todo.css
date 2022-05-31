@@ -1,0 +1,91 @@
+TodoInsert .todoinsert {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: 'EarlyFontDiary';
+}
+
+.todoinsert_todobox {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #bbbace;
+  padding: 10px;
+  height: 50px;
+  box-sizing: border-box;
+  font-family: 'EarlyFontDiary';
+  font-weight: bold;
+}
+
+.todoinsert_addbox {
+  border: none;
+  border-radius: 0;
+  background-color: #acb890;
+  color: #2e3438;
+  height: 50px;
+  width: 50px;
+  font-weight: bold;
+}
+
+.todofin {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.todofin_title {
+  font-weight: bold;
+  margin: 0;
+  font-family: 'EarlyFontDiary';
+}
+.todofin_ul {
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+
+/* TodoList */
+.todolist {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 36px;
+}
+.todolist_checkbox {
+  margin-bottom: 0;
+  font-family: 'EarlyFontDiary';
+}
+.todolist_btn {
+  margin-right: 10px;
+  font-family: 'EarlyFontDiary';
+}
+.todolist_content {
+  flex: 1;
+  font-family: 'EarlyFontDiary';
+}
+.todolist_btn,
+.todolist_del_btn {
+  border: none;
+  border-radius: 0;
+  height: 36px;
+  width: 36px;
+  background-color: inherit;
+  font-family: 'EarlyFontDiary';
+}
+.todolist_btn,
+.todolist_del_btn {
+  cursor: pointer;
+  background-color: #bbbace;
+}
+.todolist_btn {
+  margin-right: 3px;
+}
+
+@font-face {
+  font-family: 'EarlyFontDiary';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
