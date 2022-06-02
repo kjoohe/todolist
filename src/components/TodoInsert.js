@@ -97,7 +97,7 @@ const TodoInsert = ({
         onSubmit={
           selectedTodo
             ? () => {
-                ontimeupdate(selectedTodo.id, value);
+                onUpdate(selectedTodo.id, value);
               }
             : onSubmit
         }

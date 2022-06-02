@@ -40,8 +40,8 @@ flex-direction: column;
 const Template = ({ children, todoLength }) => {
   return (
     <WhiteBox1>
-      <h1>2022년 5/8 </h1>
-      <div className="day">화요일</div>
+      {/* <h1>2022년 5/8 </h1>
+      <div className="day">화요일</div> */}
       <div className="Template">
         <div className="Title">Todo List ({todoLength})</div>
 
